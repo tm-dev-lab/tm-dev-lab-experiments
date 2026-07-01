@@ -1,0 +1,10 @@
+ int ActiveProcessorCount = -1 {product} {default}
+ size_t InitialHeapSize = 16777216 {product} {ergonomic}
+ size_t MaxHeapSize = 268435456 {product} {ergonomic}
+ double MaxRAMPercentage = 25.000000 {product} {default}
+ size_t SoftMaxHeapSize = 268435456 {manageable} {ergonomic}
+ bool UseG1GC = false {product} {default}
+ bool UseParallelGC = false {product} {default}
+ bool UseSerialGC = true {product} {ergonomic}
+ bool UseShenandoahGC = false {product} {default}
+ bool UseZGC = false {product} {default}

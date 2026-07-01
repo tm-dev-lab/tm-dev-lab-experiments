@@ -1,0 +1,23 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.0)
+
+2026-07-01T01:46:21.116Z  INFO 1 --- [digital-bank] [           main] com.tmdevlab.bank.BankApplication        : Starting BankApplication v1.0.0 using Java 21.0.11 with PID 1 (/app/app.jar started by root in /app)
+2026-07-01T01:46:21.120Z  INFO 1 --- [digital-bank] [           main] com.tmdevlab.bank.BankApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-07-01T01:46:22.353Z  INFO 1 --- [digital-bank] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-01T01:46:22.365Z  INFO 1 --- [digital-bank] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-01T01:46:22.365Z  INFO 1 --- [digital-bank] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-01T01:46:22.384Z  INFO 1 --- [digital-bank] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1166 ms
+2026-07-01T01:46:22.959Z  INFO 1 --- [digital-bank] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-07-01T01:46:23.025Z  INFO 1 --- [digital-bank] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-01T01:46:23.031Z  INFO 1 --- [digital-bank] [           main] com.tmdevlab.bank.BankApplication        : Started BankApplication in 2.476 seconds (process running for 2.99)
+2026-07-01T01:46:23.156Z  INFO 1 --- [digital-bank] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-01T01:46:23.156Z  INFO 1 --- [digital-bank] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-01T01:46:23.158Z  INFO 1 --- [digital-bank] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-07-01T01:46:23.798Z  INFO 1 --- [digital-bank] [           main] com.tmdevlab.bank.config.PreloadRunner   : Preloaded 300000 accounts x 4 tx (1200000 ledger entries) in 655 ms

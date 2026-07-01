@@ -1,0 +1,1 @@
+mem=1g cpu=2 launcher=java run=1

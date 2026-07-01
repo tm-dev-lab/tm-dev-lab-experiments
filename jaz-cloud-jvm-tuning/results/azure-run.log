@@ -1,0 +1,45 @@
+run-matrix 20260701T012456Z
+  mems=[1g 2g] cpus=[1 2] launchers=[java jaz] runs=5
+  vus=100 warmup=30s measure=60s preload=300000x4 io=5ms
+  out=/home/azureuser/jaz-cloud-jvm-tuning/results/raw/20260701T012456Z
+  [mem1g_cpu1/java/run1] reqs=163248 rate=2720.2/s med=15.01ms p95=80.24ms p99=286.79ms srvErr=0.00%
+  [mem1g_cpu1/java/run2] reqs=165165 rate=2752.4/s med=14.70ms p95=80.16ms p99=284.44ms srvErr=0.00%
+  [mem1g_cpu1/java/run3] reqs=156239 rate=2603.1/s med=15.56ms p95=82.75ms p99=285.73ms srvErr=0.00%
+  [mem1g_cpu1/java/run4] reqs=161550 rate=2691.6/s med=15.04ms p95=81.20ms p99=286.53ms srvErr=0.00%
+  [mem1g_cpu1/java/run5] reqs=151737 rate=2524.6/s med=16.23ms p95=85.23ms p99=282.71ms srvErr=0.00%
+  [mem1g_cpu1/jaz/run1] reqs=161841 rate=2696.7/s med=17.60ms p95=85.32ms p99=101.88ms srvErr=0.00%
+  [mem1g_cpu1/jaz/run2] reqs=161909 rate=2697.7/s med=17.75ms p95=86.22ms p99=102.31ms srvErr=0.00%
+  [mem1g_cpu1/jaz/run3] reqs=159178 rate=2648.9/s med=18.14ms p95=86.64ms p99=101.57ms srvErr=0.00%
+  [mem1g_cpu1/jaz/run4] reqs=171863 rate=2863.5/s med=16.20ms p95=84.67ms p99=99.59ms srvErr=0.00%
+  [mem1g_cpu1/jaz/run5] reqs=168516 rate=2807.8/s med=16.92ms p95=84.88ms p99=98.77ms srvErr=0.00%
+  [mem1g_cpu2/java/run1] reqs=347054 rate=5783.7/s med=8.92ms p95=25.93ms p99=246.97ms srvErr=0.00%
+  [mem1g_cpu2/java/run2] reqs=346287 rate=5748.8/s med=9.02ms p95=26.81ms p99=248.74ms srvErr=0.00%
+  [mem1g_cpu2/java/run3] reqs=344677 rate=5740.3/s med=8.98ms p95=25.88ms p99=247.99ms srvErr=0.00%
+  [mem1g_cpu2/java/run4] reqs=337960 rate=5632.1/s med=9.25ms p95=26.86ms p99=256.05ms srvErr=0.00%
+  [mem1g_cpu2/java/run5] reqs=345010 rate=5749.5/s med=9.01ms p95=26.36ms p99=255.59ms srvErr=0.00%
+  [mem1g_cpu2/jaz/run1] reqs=470848 rate=7846.7/s med=10.05ms p95=26.65ms p99=39.20ms srvErr=0.00%
+  [mem1g_cpu2/jaz/run2] reqs=454724 rate=7577.3/s med=10.15ms p95=28.93ms p99=45.31ms srvErr=0.00%
+  [mem1g_cpu2/jaz/run3] reqs=481653 rate=8026.5/s med=9.72ms p95=26.68ms p99=38.29ms srvErr=0.00%
+  [mem1g_cpu2/jaz/run4] reqs=457133 rate=7617.8/s med=10.23ms p95=28.37ms p99=42.11ms srvErr=0.00%
+  [mem1g_cpu2/jaz/run5] reqs=493604 rate=8225.7/s med=9.56ms p95=25.73ms p99=37.61ms srvErr=0.00%
+  [mem2g_cpu1/java/run1] reqs=219916 rate=3658.3/s med=13.85ms p95=74.39ms p99=84.82ms srvErr=0.00%
+  [mem2g_cpu1/java/run2] reqs=212523 rate=3541.4/s med=13.95ms p95=74.38ms p99=84.36ms srvErr=0.00%
+  [mem2g_cpu1/java/run3] reqs=200726 rate=3344.6/s med=14.71ms p95=75.89ms p99=86.63ms srvErr=0.00%
+  [mem2g_cpu1/java/run4] reqs=192932 rate=3214.8/s med=15.04ms p95=77.29ms p99=87.58ms srvErr=0.00%
+  [mem2g_cpu1/java/run5] reqs=207854 rate=3463.4/s med=14.15ms p95=74.94ms p99=85.02ms srvErr=0.00%
+  [mem2g_cpu1/jaz/run1] reqs=163217 rate=2719.1/s med=17.42ms p95=84.98ms p99=101.73ms srvErr=0.00%
+  [mem2g_cpu1/jaz/run2] reqs=164809 rate=2746.4/s med=17.48ms p95=85.43ms p99=100.02ms srvErr=0.00%
+  [mem2g_cpu1/jaz/run3] reqs=166718 rate=2778.1/s med=17.06ms p95=84.31ms p99=102.24ms srvErr=0.00%
+  [mem2g_cpu1/jaz/run4] reqs=171957 rate=2865.6/s med=16.62ms p95=83.08ms p99=97.76ms srvErr=0.00%
+  [mem2g_cpu1/jaz/run5] reqs=169834 rate=2830.1/s med=16.73ms p95=83.82ms p99=98.36ms srvErr=0.00%
+  [mem2g_cpu2/java/run1] reqs=459079 rate=7650.5/s med=10.24ms p95=27.87ms p99=39.12ms srvErr=0.00%
+  [mem2g_cpu2/java/run2] reqs=469871 rate=7829.9/s med=9.98ms p95=27.61ms p99=40.55ms srvErr=0.00%
+  [mem2g_cpu2/java/run3] reqs=470959 rate=7848.2/s med=9.98ms p95=27.18ms p99=38.21ms srvErr=0.00%
+  [mem2g_cpu2/java/run4] reqs=465345 rate=7755.0/s med=10.16ms p95=27.24ms p99=38.99ms srvErr=0.00%
+  [mem2g_cpu2/java/run5] reqs=477621 rate=7959.1/s med=9.92ms p95=26.55ms p99=38.80ms srvErr=0.00%
+  [mem2g_cpu2/jaz/run1] reqs=496904 rate=8280.8/s med=9.41ms p95=26.11ms p99=37.14ms srvErr=0.00%
+  [mem2g_cpu2/jaz/run2] reqs=472122 rate=7867.8/s med=9.89ms p95=27.33ms p99=38.42ms srvErr=0.00%
+  [mem2g_cpu2/jaz/run3] reqs=475156 rate=7915.3/s med=9.77ms p95=27.52ms p99=40.07ms srvErr=0.00%
+  [mem2g_cpu2/jaz/run4] reqs=490696 rate=8176.8/s med=9.57ms p95=26.09ms p99=37.10ms srvErr=0.00%
+  [mem2g_cpu2/jaz/run5] reqs=472380 rate=7872.1/s med=9.93ms p95=27.38ms p99=39.90ms srvErr=0.00%
+DONE -> /home/azureuser/jaz-cloud-jvm-tuning/results/raw/20260701T012456Z

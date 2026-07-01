@@ -1,0 +1,1 @@
+jaz would run: [/usr/bin/java -XX:NativeMemoryTracking=summary -XX:ErrorFile=/tmp/jaz-hotspot-error-3924198886/hs_err_pid%p.log -XX:+UseG1GC -XX:MinHeapFreeRatio=10 -XX:MaxHeapFreeRatio=50 -Xmx1468m -XX:+UnlockExperimentalVMOptions -XX:+G1UseTimeBasedHeapSizing -XX:G1PeriodicGCInterval=10000 -jar /app/app.jar]

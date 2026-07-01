@@ -1,0 +1,1 @@
+mem=1g cpu=1 launcher=jaz run=4

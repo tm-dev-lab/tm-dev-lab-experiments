@@ -1,0 +1,17 @@
+== memory.peak ==
+461045760
+== memory.current ==
+458944512
+== memory.max ==
+2147483648
+== cpu.stat ==
+usage_usec 97498814
+user_usec 84141615
+system_usec 13357198
+nice_usec 0
+core_sched.force_idle_usec 0
+nr_periods 978
+nr_throttled 973
+throttled_usec 197290412
+nr_bursts 0
+burst_usec 0
